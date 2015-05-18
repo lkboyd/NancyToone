@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=198.71.226.2;Initial Catalog=NancyTooneDB;Persist Security Info=True;User ID=laurakboyd;Password=P@ssword1; Connect Timeout=15;Encrypt=False;TrustServerCertificate=False" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Laura\\Documents\\Visual\ Studio\ 2013\\Projects\\NancyToone\\NancyToone\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
