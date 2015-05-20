@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Configuration;
+using System.Data.SqlClient; 
 
 namespace NancyToone.Controllers
 {
@@ -10,7 +12,7 @@ namespace NancyToone.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+           return View();
         }
 
         public ActionResult About()
@@ -24,6 +26,23 @@ namespace NancyToone.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult Teacher()
+        {
+            return View();
+        }
+        public ActionResult Calendar()
+        {
+            return View();
+        }
+        public ActionResult StudentResources()
+        {
+            return View();
+        }
+        public ActionResult AudioFiles()
+        {
             return View();
         }
     }
